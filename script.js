@@ -14,6 +14,7 @@ let isSwitching = false;
 let lastPointerX = null;
 let lastPointerY = null;
 const emojiSourceCache = new Map();
+let hasSetInitialFavicon = false;
 
 function buildEmojiSrc(fileName) {
   return `${EMOJI_BASE_PATH}${encodeURIComponent(fileName)}`;
@@ -61,6 +62,31 @@ function preloadEmojiSources() {
       .catch(() => {
         emojiSourceCache.set(fileName, null);
       });
+  });
+}
+
+function upsertHeadLink(selector, attributes) {
+  let link = document.head.querySelector(selector);
+  if (!link) {
+    link = document.createElement("link");
+    document.head.appendChild(link);
+  }
+
+  Object.entries(attributes).forEach(([name, value]) => {
+    link.setAttribute(name, value);
+  });
+}
+
+function setFaviconFromEmoji(src) {
+  // Provide both standard favicon and Apple touch icon.
+  upsertHeadLink("link[rel='icon']", {
+    rel: "icon",
+    type: "image/png",
+    href: src,
+  });
+  upsertHeadLink("link[rel='apple-touch-icon']", {
+    rel: "apple-touch-icon",
+    href: src,
   });
 }
 
@@ -121,6 +147,10 @@ async function showNextAvailableEmoji() {
 
   emojiImage.src = loadedSrc;
   emojiImage.alt = `Emoji image ${loadedFile}`;
+  if (!hasSetInitialFavicon) {
+    setFaviconFromEmoji(loadedSrc);
+    hasSetInitialFavicon = true;
+  }
   setFallbackVisible(false);
   currentIndex = (loadedIndex + 1) % EMOJI_FILES.length;
   isSwitching = false;
@@ -144,6 +174,10 @@ function handlePointerMove(event) {
   showNextAvailableEmoji();
 }
 
+if (EMOJI_FILES.length > 0) {
+  // New session => different first emoji and favicon.
+  currentIndex = Math.floor(Math.random() * EMOJI_FILES.length);
+}
 preloadEmojiSources();
 showNextAvailableEmoji();
 window.addEventListener("pointermove", handlePointerMove, { passive: true });

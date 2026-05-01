@@ -1,0 +1,781 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meet Armenia — Final Presentation</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;700;800&display=swap");
+
+      :root {
+        --bg: #d9dde0;
+        --ink: #0f1115;
+        --muted: #515865;
+        --card: #f7f8fa;
+        --line: #c3c9d1;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Instrument Sans", "Inter", "Segoe UI", sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+      }
+
+      .deck {
+        width: min(1180px, 100%);
+        margin: 0 auto;
+        padding: 24px;
+      }
+
+      .slide {
+        min-height: 92vh;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(2px);
+        border-radius: 24px;
+        padding: 28px;
+        margin-bottom: 18px;
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+        gap: 18px;
+      }
+
+      .slide-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: clamp(1.4rem, 2.2vw, 2rem);
+        font-weight: 700;
+        line-height: 0.96;
+      }
+
+      .brand .emoji {
+        display: inline-grid;
+        place-items: center;
+        width: 1.2em;
+        height: 1.2em;
+      }
+
+      .slide-id {
+        font-size: 0.9rem;
+        color: var(--muted);
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: clamp(2.2rem, 5.5vw, 5rem);
+        line-height: 0.95;
+      }
+
+      h2 {
+        font-size: clamp(1.5rem, 3vw, 2.3rem);
+      }
+
+      .lead {
+        font-size: clamp(1.1rem, 1.8vw, 1.4rem);
+        font-weight: 600;
+      }
+
+      .content {
+        display: grid;
+        gap: 12px;
+      }
+
+      .columns-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
+
+      .columns-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+      }
+
+      .card {
+        border: 1px solid var(--line);
+        background: var(--card);
+        border-radius: 16px;
+        padding: 14px;
+        display: grid;
+        gap: 8px;
+      }
+
+      .card h4 {
+        margin: 0;
+        font-size: 1rem;
+      }
+
+      .card p,
+      .card li {
+        color: #202531;
+        line-height: 1.45;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 18px;
+        display: grid;
+        gap: 6px;
+      }
+
+      .placeholder-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+
+      .placeholder {
+        border: 1px dashed #8b93a3;
+        border-radius: 12px;
+        min-height: 92px;
+        padding: 10px;
+        font-size: 0.9rem;
+        display: grid;
+        align-content: center;
+        justify-items: start;
+        background: #eef1f5;
+      }
+
+      .placeholder b {
+        font-size: 0.75rem;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+      }
+
+      .note {
+        color: var(--muted);
+      }
+
+      .big-quote {
+        font-size: clamp(1.3rem, 2.4vw, 2rem);
+        line-height: 1.2;
+      }
+
+      .cover {
+        background: linear-gradient(135deg, #f0f2f6 0%, #d9dde0 55%, #cfd5db 100%);
+      }
+
+      @media (max-width: 900px) {
+        .deck {
+          padding: 14px;
+        }
+
+        .slide {
+          padding: 18px;
+          border-radius: 18px;
+        }
+
+        .columns-2,
+        .columns-3,
+        .placeholder-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="deck">
+      <section class="slide cover">
+        <header class="slide-header">
+          <div class="brand">
+            <span>helloiam</span>
+            <span class="emoji">🍷</span>
+            <span>am</span>
+          </div>
+          <div class="slide-id">Cover</div>
+        </header>
+
+        <h1>Meet Armenia</h1>
+        <p class="lead">I am not a destination. I am a character.</p>
+
+        <div class="content">
+          <p class="big-quote">
+            A media-first travel brand that makes Armenia feel personal before it becomes a trip.
+          </p>
+          <p class="note">Project: helloiam🍷am — Status: Approved — Type: Presentation</p>
+        </div>
+
+        <div class="placeholder-grid">
+          <div class="placeholder"><b>Image placeholder</b>Wide cinematic image: Ararat / Armenian highlands / Yerevan at golden hour / mountain road.</div>
+          <div class="placeholder"><b>Image placeholder</b>Optional human detail: hand with wine glass / lavash / table / road.</div>
+          <div class="placeholder"><b>Image placeholder</b>Minimal logo lockup corner composition reference.</div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">📈</span><span>am</span></div>
+          <div class="slide-id">1. The Opportunity</div>
+        </header>
+        <h2>1. The Opportunity</h2>
+        <p class="lead">Armenia is entering a new visibility window.</p>
+        <div class="content">
+          <p>Tourism is growing. Direct access from London is launching. Smaller, less obvious destinations are gaining global attention. Armenia is moving closer to Europe through the EU visa liberalisation process.</p>
+          <p>The timing is right for Armenia to become more than a place people discover by accident.</p>
+          <p>It can become a country people feel connected to before they travel.</p>
+        </div>
+        <div class="columns-2">
+          <article class="card">
+            <h4>Slide format: Opportunity convergence diagram</h4>
+            <ul>
+              <li>Center: “Armenia visibility window”.</li>
+              <li>Around it: 4–5 incoming forces.</li>
+              <li>Bottom: one-line implication.</li>
+              <li>Tourism growth.</li>
+              <li>Direct London → Yerevan access.</li>
+              <li>Demand for lesser-known destinations.</li>
+              <li>EU visa liberalisation process.</li>
+              <li>Cultural travel / identity-driven travel.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h4>Assets needed</h4>
+            <div class="placeholder-grid">
+              <div class="placeholder"><b>Image placeholder</b>Simple map line: London → Yerevan.</div>
+              <div class="placeholder"><b>Image placeholder</b>Small background photo: Yerevan / Ararat / airport window.</div>
+              <div class="placeholder"><b>Image placeholder</b>Icon set + short labels (not only photos).</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">🧩</span><span>am</span></div>
+          <div class="slide-id">2. The Problem</div>
+        </header>
+        <h2>2. The Problem</h2>
+        <p class="lead">Armenia has cultural depth, but no simple emotional entry point for global audiences.</p>
+        <div class="content">
+          <p>Armenia is rich in everything modern travellers want:</p>
+          <ul>
+            <li>food</li>
+            <li>wine</li>
+            <li>mountains</li>
+            <li>ancient culture</li>
+            <li>music</li>
+            <li>hospitality</li>
+            <li>identity</li>
+            <li>history</li>
+            <li>hidden places</li>
+          </ul>
+          <p>But for many international audiences, Armenia still does not have a clear emotional handle.</p>
+          <p>They may know it exists.</p>
+          <p>They may know it is old, beautiful, or culturally rich.</p>
+          <p>But they do not yet know what Armenia feels like.</p>
+        </div>
+        <div class="columns-2">
+          <article class="card">
+            <h4>Slide format: Split-screen problem slide</h4>
+            <ul>
+              <li>Left side: “High cultural depth” with rich visual fragments.</li>
+              <li>Right side: “Low emotional clarity” with empty / blurred / undefined frame.</li>
+              <li>Center tension line: “Depth without a simple entry point”.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h4>Assets needed</h4>
+            <div class="placeholder-grid">
+              <div class="placeholder"><b>Image placeholder</b>Left: fragments of lavash, wine, duduk, stone, monastery, mountain, table.</div>
+              <div class="placeholder"><b>Image placeholder</b>Right: blurred map/search/travel interface where Armenia is present but emotionally unclear.</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">🧠</span><span>am</span></div>
+          <div class="slide-id">3. The Insight</div>
+        </header>
+        <h2>3. The Insight</h2>
+        <p class="lead">People do not choose places first. They choose feelings, stories, and identities.</p>
+        <div class="content">
+          <p>Before people book a trip, they need a reason to care.</p>
+          <p>A destination is not only a location.</p>
+          <p>It is a mood.</p>
+          <p>A voice.</p>
+          <p>A taste.</p>
+          <p>A memory they have not had yet.</p>
+          <p>Armenia should not be introduced as a checklist of attractions.</p>
+          <p>It should be introduced as a living cast of characters:</p>
+          <ul>
+            <li>Wine</li><li>Mountains</li><li>Duduk</li><li>Lavash</li><li>Stone</li><li>Apricot</li><li>Yerevan</li><li>Monastery</li><li>Table</li><li>Grandma</li><li>Night</li><li>Road</li>
+          </ul>
+          <p>Each one becomes an emotional way into the country.</p>
+        </div>
+        <div class="columns-3">
+          <article class="card"><h4>Column 1</h4><p>Places</p></article>
+          <article class="card"><h4>Column 2</h4><p>Feelings</p></article>
+          <article class="card"><h4>Column 3</h4><p>Characters</p></article>
+        </div>
+        <div class="placeholder-grid">
+          <div class="placeholder"><b>Image placeholder</b>Places: monastery / landscape.</div>
+          <div class="placeholder"><b>Image placeholder</b>Feelings: table / wine / human moment.</div>
+          <div class="placeholder"><b>Image placeholder</b>Characters: character cards or icons for Wine, Duduk, Lavash, Mountains.</div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">🎭</span><span>am</span></div>
+          <div class="slide-id">4. The Solution</div>
+        </header>
+        <h2>4. The Solution</h2>
+        <p class="lead">Meet Armenia: a character-based media brand for discovering the country.</p>
+        <div class="content">
+          <p>I am not a destination.</p>
+          <p>I am a character.</p>
+          <p>Meet Armenia.</p>
+          <p>Meet Armenia turns the country into a living cast of cultural characters.</p>
+          <p>Each character becomes:</p>
+          <ul>
+            <li>a content format</li>
+            <li>a visual identity</li>
+            <li>a story arc</li>
+            <li>a guide</li>
+            <li>a route</li>
+            <li>a travel product</li>
+          </ul>
+          <p>The brand does not simply tell people to visit Armenia.</p>
+          <p>It lets them meet Armenia first.</p>
+        </div>
+        <div class="columns-2">
+          <article class="card">
+            <h4>Character cards</h4>
+            <ul>
+              <li>Wine — “The host”</li>
+              <li>Mountains — “The witness”</li>
+              <li>Duduk — “The voice”</li>
+              <li>Lavash — “The memory”</li>
+              <li>Yerevan — “The night”</li>
+              <li>Monastery — “The silence”</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h4>Assets needed</h4>
+            <div class="placeholder-grid">
+              <div class="placeholder"><b>Image placeholder</b>Photo texture for each character.</div>
+              <div class="placeholder"><b>Image placeholder</b>Emoji or custom icon per card.</div>
+              <div class="placeholder"><b>Image placeholder</b>Brand/IP system look reference.</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">⚙️</span><span>am</span></div>
+          <div class="slide-id">5. The Character System</div>
+        </header>
+        <h2>5. The Character System</h2>
+        <p class="lead">Every topic becomes a character. Every character becomes a content universe.</p>
+        <div class="content">
+          <p>The system turns cultural topics into repeatable media objects.</p>
+          <p><b>Topic</b></p>
+          <p>Wine, lavash, duduk, mountains, Yerevan, monasteries, hidden villages.</p>
+          <p><b>Character</b></p>
+          <p>A voice, mood, emoji, visual style, and emotional role.</p>
+          <p><b>Story</b></p>
+          <p>Facts, myths, places, people, rituals, and memory.</p>
+          <p><b>Formats</b></p>
+          <p>Reels, carousels, stories, guides, maps, newsletters, short films.</p>
+          <p><b>Trip Layer</b></p>
+          <p>Routes, recommendations, booking intent, curated experiences.</p>
+          <p>Example:</p>
+          <p><b>Duduk</b></p>
+          <p>Not an instrument.</p>
+          <p>A voice.</p>
+          <p>A sound that feels older than the room.</p>
+        </div>
+        <div class="columns-2">
+          <article class="card">
+            <h4>Example flow</h4>
+            <ul>
+              <li>Topic: Duduk</li>
+              <li>Character: The voice</li>
+              <li>Story: Ancient sound / human breath / ritual</li>
+              <li>Format: reel, carousel, short film, guide</li>
+              <li>Trip Layer: music evening, maker visit, cultural route</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h4>Assets needed</h4>
+            <div class="placeholder-grid">
+              <div class="placeholder"><b>Image placeholder</b>Clean arrows / modular blocks.</div>
+              <div class="placeholder"><b>Image placeholder</b>One small duduk photo or illustration.</div>
+              <div class="placeholder"><b>Image placeholder</b>Operating-system visual style reference.</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">🔤</span><span>am</span></div>
+          <div class="slide-id">6. The Brand Language</div>
+        </header>
+        <h2>6. The Brand Language</h2>
+        <p class="lead">Say hello to Armenia, one character at a time.</p>
+        <div class="content">
+          <p>The identity is modular.</p>
+          <p>One brand name.</p>
+          <p>Many faces.</p>
+          <p>Examples:</p>
+          <p><b>helloiam🍷am</b></p>
+          <p>Say hello to Armenian wine.</p>
+          <p><b>helloiam⛰️am</b></p>
+          <p>Say hello to mountains that breathe.</p>
+          <p><b>helloiam🎶am</b></p>
+          <p>Say hello to the sound of duduk.</p>
+          <p><b>helloiam🥖am</b></p>
+          <p>Say hello to lavash, the bread that remembers.</p>
+          <p>The emoji becomes a switch.</p>
+          <p>The country becomes a cast.</p>
+          <p>The brand stays simple, but the system keeps expanding.</p>
+        </div>
+        <div class="placeholder-grid">
+          <div class="placeholder"><b>Image placeholder</b>Background photos for each theme.</div>
+          <div class="placeholder"><b>Image placeholder</b>Logo lockups.</div>
+          <div class="placeholder"><b>Image placeholder</b>Grid cells with same layout rules.</div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">🏭</span><span>am</span></div>
+          <div class="slide-id">7. The Content Engine</div>
+        </header>
+        <h2>7. The Content Engine</h2>
+        <p class="lead">From cultural fragments to repeatable media formats.</p>
+        <div class="content">
+          <p>Meet Armenia is not a random travel blog.</p>
+          <p>It is a content factory built around repeatable rubrics.</p>
+          <p><b>Hello, I Am Armenian [Topic]</b></p>
+          <p>A mass-entry format for introducing cultural themes through short videos, carousels, and story packs.</p>
+          <p><b>Hidden Armenia</b></p>
+          <p>Rare places, micro-stories, and discoveries that make the country feel personal and alive.</p>
+          <p><b>Say Hello To...</b></p>
+          <p>Mood-led teasers around wine, mountains, food, music, traditions, cities, and routes.</p>
+          <p><b>Meet the Character</b></p>
+          <p>A character card for each theme: personality, mood, habits, visual world, and where to meet it.</p>
+          <p><b>Your Armenia Type</b></p>
+          <p>A format that turns audience behaviour into travel preferences.</p>
+        </div>
+        <div class="columns-2">
+          <article class="card">
+            <h4>Matrix</h4>
+            <ul>
+              <li>Rows: Hello I Am / Hidden Armenia / Say Hello To / Meet the Character / Your Armenia Type.</li>
+              <li>Columns: Reel / Carousel / Story / Guide / Map.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h4>Assets needed</h4>
+            <div class="placeholder-grid">
+              <div class="placeholder"><b>Image placeholder</b>Instagram reel mockups.</div>
+              <div class="placeholder"><b>Image placeholder</b>Carousel covers + story cards.</div>
+              <div class="placeholder"><b>Image placeholder</b>Guide pages + map cards.</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">🎨</span><span>am</span></div>
+          <div class="slide-id">8. The Visual Identity System</div>
+        </header>
+        <h2>8. The Visual Identity System</h2>
+        <p class="lead">A modular identity for a modular country brand.</p>
+        <div class="content">
+          <p>The visual system is built to scale across characters, topics, and formats.</p>
+          <p>Core elements:</p>
+          <ul>
+            <li>dynamic <b>helloiam[emoji]am</b> logo</li>
+            <li>emoji as a theme switcher</li>
+            <li>short slogans built around “Say hello to...”</li>
+            <li>warm, minimal, cultural visual style</li>
+            <li>cover grids for carousels and stories</li>
+            <li>repeatable layouts for reels, guides, and maps</li>
+            <li>custom character icons over time</li>
+          </ul>
+          <p>The identity is not fixed.</p>
+          <p>It behaves like Armenia itself:</p>
+          <p><b>one name, many faces.</b></p>
+        </div>
+        <div class="placeholder-grid">
+          <div class="placeholder"><b>Image placeholder</b>Brand board with real examples.</div>
+          <div class="placeholder"><b>Image placeholder</b>Sample covers for Wine, Mountains, Duduk, Lavash.</div>
+          <div class="placeholder"><b>Image placeholder</b>Palette references: deep wine, stone beige, apricot, mountain blue, night black.</div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">🗺️</span><span>am</span></div>
+          <div class="slide-id">9. The Recommendation Layer</div>
+        </header>
+        <h2>9. The Recommendation Layer</h2>
+        <p class="lead">From content to personal routes.</p>
+        <div class="content">
+          <p>As people interact with the content, the system learns what kind of Armenia they are drawn to.</p>
+          <p>They may become:</p>
+          <ul>
+            <li>a wine person</li>
+            <li>a mountain person</li>
+            <li>a food person</li>
+            <li>a history person</li>
+            <li>a hidden places person</li>
+            <li>a family trip person</li>
+            <li>a city weekend person</li>
+            <li>a slow travel person</li>
+          </ul>
+          <p>This creates the bridge from media to product.</p>
+          <p>Example:</p>
+          <p>You met Armenian wine, duduk, and mountain villages.</p>
+          <p>Here is your 4-day Armenia route.</p>
+          <p>Content becomes a signal.</p>
+          <p>Signals become preferences.</p>
+          <p>Preferences become routes.</p>
+          <p>Routes become trips.</p>
+        </div>
+        <div class="placeholder-grid">
+          <div class="placeholder"><b>Image placeholder</b>Phone mockup with saved posts.</div>
+          <div class="placeholder"><b>Image placeholder</b>Preference chips: wine, music, mountain villages.</div>
+          <div class="placeholder"><b>Image placeholder</b>Route card and map with 4–5 stops.</div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">💸</span><span>am</span></div>
+          <div class="slide-id">10. The Business Model</div>
+        </header>
+        <h2>10. The Business Model</h2>
+        <p class="lead">Content → Emotion → Intent → Trip</p>
+        <div class="content">
+          <p>Meet Armenia is designed as a media-first travel company.</p>
+          <p><b>1. Content</b></p>
+          <p>Short videos, carousels, guides, stories, maps, newsletters, and cultural formats.</p>
+          <p><b>2. Emotion</b></p>
+          <p>The audience begins to feel the country, not just learn facts about it.</p>
+          <p><b>3. Intent</b></p>
+          <p>People start saying: “I want to go there”, “I want to try this”, “I want this route”.</p>
+          <p><b>4. Trip</b></p>
+          <p>The brand converts attention into routes, partners, bookings, tours, and local products.</p>
+          <p>Main principle:</p>
+          <p>Media brand first.</p>
+          <p>Travel company second.</p>
+          <p>Revenue channels:</p>
+          <ul>
+            <li>affiliate and commission from travel bookings</li>
+            <li>curated trips and city breaks</li>
+            <li>wine, food, culture, and nature routes</li>
+            <li>paid guides and premium itineraries</li>
+            <li>brand partnerships</li>
+            <li>sponsored cultural content</li>
+            <li>merchandise and printed guides</li>
+            <li>B2B white-label products for tourism boards, airlines, hotels, and cultural partners</li>
+          </ul>
+        </div>
+        <div class="placeholder-grid">
+          <div class="placeholder"><b>Image placeholder</b>Funnel icons + thumbnails per step.</div>
+          <div class="placeholder"><b>Image placeholder</b>Revenue layer cards.</div>
+          <div class="placeholder"><b>Image placeholder</b>Investor-readable clean visual treatment.</div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">🛣️</span><span>am</span></div>
+          <div class="slide-id">11. Go-To-Market</div>
+        </header>
+        <h2>11. Go-To-Market</h2>
+        <p class="lead">Start with attention. Convert later.</p>
+        <div class="content">
+          <p><b>Phase 1: Media Proof</b></p>
+          <p>Launch core rubrics: Wine, Duduk, Lavash, Mountains, Hidden Armenia, Yerevan.</p>
+          <p><b>Phase 2: Audience & Data</b></p>
+          <p>Measure what people save, share, comment on, and click.</p>
+          <p><b>Phase 3: Trip Intent</b></p>
+          <p>Launch mini-guides, email, Telegram, and web-based route recommendations.</p>
+          <p><b>Phase 4: Travel Products</b></p>
+          <p>Build partner routes, curated tours, city breaks, and cultural packages.</p>
+          <p><b>Phase 5: Platform / IP</b></p>
+          <p>Turn the model into a repeatable system for other countries and regions.</p>
+          <p>The sequence is simple:</p>
+          <p>Attention first.</p>
+          <p>Data second.</p>
+          <p>Travel products third.</p>
+        </div>
+        <div class="placeholder-grid">
+          <div class="placeholder"><b>Image placeholder</b>Timeline / roadmap graphic.</div>
+          <div class="placeholder"><b>Image placeholder</b>One visual tile per phase.</div>
+          <div class="placeholder"><b>Image placeholder</b>Executable, low-density roadmap layout.</div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">📍</span><span>am</span></div>
+          <div class="slide-id">12. Why Armenia First</div>
+        </header>
+        <h2>12. Why Armenia First</h2>
+        <p class="lead">Armenia has unusually high cultural density per square kilometre.</p>
+        <div class="content">
+          <p>Armenia is small enough to explore.</p>
+          <p>Deep enough to never finish.</p>
+          <p>It has:</p>
+          <ul>
+            <li>ancient culture</li>
+            <li>Christian heritage and monasteries</li>
+            <li>mountains and dramatic roads</li>
+            <li>Yerevan as a city-break destination</li>
+            <li>food, wine, and music</li>
+            <li>strong diaspora energy</li>
+            <li>underused global recognition</li>
+            <li>growing accessibility</li>
+            <li>a European cultural and political frame</li>
+          </ul>
+          <p>Armenia is not empty space waiting for a campaign.</p>
+          <p>It is already full of characters.</p>
+          <p>The work is to introduce them properly.</p>
+        </div>
+        <div class="placeholder-grid">
+          <div class="placeholder"><b>Image placeholder</b>Simple Armenia map.</div>
+          <div class="placeholder"><b>Image placeholder</b>Photo tiles: monastery, road, table, Yerevan street, wine, mountain, musician, apricot, village.</div>
+          <div class="placeholder"><b>Image placeholder</b>Main feeling: small country, enormous depth.</div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">⚔️</span><span>am</span></div>
+          <div class="slide-id">13. Competitive Difference</div>
+        </header>
+        <h2>13. Competitive Difference</h2>
+        <p class="lead">Not a tourism board. Not a travel agency. Not another Instagram guide.</p>
+        <div class="content">
+          <p>Tourism boards show the country from above.</p>
+          <p>Travel agencies sell trips from below.</p>
+          <p>Instagram guides collect nice places.</p>
+          <p>Meet Armenia builds emotional attachment.</p>
+          <p>It does not list attractions.</p>
+          <p>It creates characters people can care about.</p>
+          <p>The difference:</p>
+          <p>We do not show Armenia as a destination.</p>
+          <p>We introduce Armenia as someone you can meet.</p>
+        </div>
+        <div class="columns-2">
+          <article class="card">
+            <h4>Comparison rows</h4>
+            <ul>
+              <li>Main job</li>
+              <li>Content style</li>
+              <li>Relationship with audience</li>
+              <li>Output</li>
+              <li>Tourism board: informs.</li>
+              <li>Travel agency: sells.</li>
+              <li>Instagram guide: curates.</li>
+              <li>Meet Armenia: creates attachment.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h4>Assets needed</h4>
+            <div class="placeholder-grid">
+              <div class="placeholder"><b>Image placeholder</b>Muted visual style for first three columns.</div>
+              <div class="placeholder"><b>Image placeholder</b>Highlighted character-led design for Meet Armenia column.</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">⏱️</span><span>am</span></div>
+          <div class="slide-id">14. Market Timing</div>
+        </header>
+        <h2>14. Market Timing</h2>
+        <p class="lead">The window is opening.</p>
+        <div class="content">
+          <p>Several forces are moving in the same direction:</p>
+          <ul>
+            <li>Armenia is already visible in international travel media.</li>
+            <li>Tourism has recovered and continues to grow.</li>
+            <li>Travellers are looking beyond overexposed destinations.</li>
+            <li>Direct London–Yerevan access is launching.</li>
+            <li>Armenia is progressing through the EU visa liberalisation process.</li>
+            <li>Cultural identity is becoming a stronger driver of travel decisions.</li>
+          </ul>
+          <p>This creates a rare opening:</p>
+          <p>A country with depth.</p>
+          <p>A market looking for new stories.</p>
+          <p>A media model built for emotional discovery.</p>
+        </div>
+        <div class="placeholder-grid">
+          <div class="placeholder"><b>Image placeholder</b>Timeline graphic.</div>
+          <div class="placeholder"><b>Image placeholder</b>Small data / event cards.</div>
+          <div class="placeholder"><b>Image placeholder</b>Background image: sunrise, opening road, airport window, or Yerevan skyline.</div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <header class="slide-header">
+          <div class="brand"><span>helloiam</span><span class="emoji">🌍</span><span>am</span></div>
+          <div class="slide-id">15. The Vision</div>
+        </header>
+        <h2>15. The Vision</h2>
+        <p class="lead">A new way to meet countries.</p>
+        <div class="content">
+          <p>Meet Armenia is the first chapter of a new travel media model:</p>
+          <p>countries as characters</p>
+          <p>culture as interface</p>
+          <p>content as the beginning of a journey</p>
+          <p>Today:</p>
+          <p><b>Armenia as a character-based media brand.</b></p>
+          <p>Next:</p>
+          <p><b>Personalized Armenia routes.</b></p>
+          <p>Later:</p>
+          <p><b>A platform for meeting countries, regions, and cultures through character-led storytelling.</b></p>
+          <p>Final line:</p>
+          <p>First you meet Armenia.</p>
+          <p>Then you go.</p>
+        </div>
+        <div class="placeholder-grid">
+          <div class="placeholder"><b>Image placeholder</b>Expanding system diagram.</div>
+          <div class="placeholder"><b>Image placeholder</b>Final cinematic image: person on road / mountain / viewpoint.</div>
+          <div class="placeholder"><b>Image placeholder</b>Final brand lockup: Meet Armenia / First you meet Armenia. Then you go.</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Z1OOiN",
+      "x": 1243,
+      "y": 6730,
+      "name": "Desktop - 44",
+      "clip": true,
+      "width": 1600,
+      "height": 900,
+      "fill": "#d9dde0ff",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "group",
+          "id": "ExL3W",
+          "x": 456,
+          "y": 363,
+          "name": "Group 1",
+          "children": [
+            {
+              "type": "text",
+              "id": "Bj9t4",
+              "x": 0,
+              "y": 0,
+              "name": "helloiam am",
+              "fill": "#420000ff",
+              "content": "helloiam        am",
+              "lineHeight": 0.9583333333333334,
+              "textAlign": "center",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 96,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "GKnZ2",
+          "x": 838,
+          "y": 496,
+          "name": "Group 2",
+          "children": [
+            {
+              "type": "text",
+              "id": "rp05T",
+              "x": 0,
+              "y": 0,
+              "name": "Say Hello to Armenia",
+              "fill": "#420000ff",
+              "content": "Say Hello to Armenia",
+              "lineHeight": 1,
+              "textAlign": "center",
+              "fontFamily": "Instrument Serif",
+              "fontSize": 44,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "script",
+          "id": "hMuhC",
+          "x": 838,
+          "y": 316,
+          "name": "scriptNode",
+          "width": 180,
+          "height": 180,
+          "scriptUri": "scripts/cycle-icons.js"
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "brand-blue": {
+      "type": "color",
+      "value": "#4a7bffff"
+    },
+    "brand-dark": {
+      "type": "color",
+      "value": "#0F0F10"
+    },
+    "brand-dark-soft": {
+      "type": "color",
+      "value": "#1A1A1C"
+    },
+    "brand-muted": {
+      "type": "color",
+      "value": "#8A8A8F"
+    },
+    "brand-red": {
+      "type": "color",
+      "value": "#d61e23ff"
+    },
+    "brand-white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "brand-yellow": {
+      "type": "color",
+      "value": "#ffc53aff"
+    },
+    "sans": {
+      "type": "string",
+      "value": "Instrument Sans"
+    },
+    "serif-italic": {
+      "type": "string",
+      "value": "Instrument Serif"
+    }
+  }
+}

@@ -1,0 +1,3883 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "0cjwU",
+      "x": 0,
+      "y": 11404,
+      "name": "Desktop - 44",
+      "clip": true,
+      "width": 1600,
+      "height": 900,
+      "fill": "#d9dde0ff",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "group",
+          "id": "2zBBz",
+          "x": 456,
+          "y": 363,
+          "name": "Group 1",
+          "children": [
+            {
+              "type": "text",
+              "id": "QrTRT",
+              "x": 0,
+              "y": 0,
+              "name": "helloiam am",
+              "fill": "#420000ff",
+              "content": "helloiam        am",
+              "lineHeight": 0.9583333333333334,
+              "textAlign": "center",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 96,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "AWdya",
+          "x": 838,
+          "y": 496,
+          "name": "Group 2",
+          "children": [
+            {
+              "type": "text",
+              "id": "W2V3w",
+              "x": 0,
+              "y": 0,
+              "name": "Say Hello to Armenia",
+              "fill": "#420000ff",
+              "content": "Say Hello to Armenia",
+              "lineHeight": 1,
+              "textAlign": "center",
+              "fontFamily": "Instrument Serif",
+              "fontSize": 44,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "script",
+          "id": "zTqpC",
+          "x": 838,
+          "y": 316,
+          "name": "scriptNode",
+          "width": 180,
+          "height": 180,
+          "scriptUri": "scripts/cycle-icons.js"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "cbAc2",
+      "x": 6560,
+      "y": 11404,
+      "name": "Desktop - 48",
+      "clip": true,
+      "width": 1600,
+      "height": 900,
+      "fill": "#d9dde0ff",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "group",
+          "id": "UBaBF",
+          "x": 456,
+          "y": 363,
+          "name": "Group 1",
+          "children": [
+            {
+              "type": "text",
+              "id": "XzNoc",
+              "x": 0,
+              "y": 0,
+              "name": "helloiam am",
+              "fill": "#420000ff",
+              "content": "helloiam        am",
+              "lineHeight": 0.9583333333333334,
+              "textAlign": "center",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 96,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "NGK3Y",
+          "x": 784,
+          "y": 496,
+          "name": "Group 2",
+          "children": [
+            {
+              "type": "text",
+              "id": "ZF1AF",
+              "x": 0,
+              "y": 0,
+              "name": "Say Hello to Food Made Slow",
+              "fill": "#420000ff",
+              "content": "Say Hello to Food Made Slow",
+              "lineHeight": 1,
+              "textAlign": "center",
+              "fontFamily": "Instrument Serif",
+              "fontSize": 44,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "fv152",
+          "x": 838,
+          "y": 316,
+          "name": "image 7",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images/image 17.png",
+            "mode": "fill"
+          },
+          "width": 180,
+          "height": 180,
+          "stroke": {
+            "thickness": 0
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "5PmSP",
+      "x": 1640,
+      "y": 11404,
+      "name": "Desktop - 45",
+      "clip": true,
+      "width": 1600,
+      "height": 900,
+      "fill": "#d9dde0ff",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "group",
+          "id": "oGt22",
+          "x": 456,
+          "y": 363,
+          "name": "Group 1",
+          "children": [
+            {
+              "type": "text",
+              "id": "thf4V",
+              "x": 0,
+              "y": 0,
+              "name": "helloiam am",
+              "fill": "#420000ff",
+              "content": "helloiam        am",
+              "lineHeight": 0.9583333333333334,
+              "textAlign": "center",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 96,
+              "fontWeight": "700"
+            },
+            {
+              "type": "rectangle",
+              "id": "GMN81",
+              "x": 382,
+              "y": -44,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "images/image 18.png",
+                "mode": "fill"
+              },
+              "width": 180,
+              "height": 180
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "dXcIs",
+          "x": 784,
+          "y": 496,
+          "name": "Group 2",
+          "children": [
+            {
+              "type": "text",
+              "id": "3XCVs",
+              "x": 0,
+              "y": 0,
+              "name": "Say Hello to Armenian Wine",
+              "fill": "#420000ff",
+              "content": "Say Hello to Armenian Wine",
+              "lineHeight": 1,
+              "textAlign": "center",
+              "fontFamily": "Instrument Serif",
+              "fontSize": 44,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "BqriP",
+      "x": 3280,
+      "y": 11404,
+      "name": "Desktop - 46",
+      "clip": true,
+      "width": 1600,
+      "height": 900,
+      "fill": "#d9dde0ff",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "jSQAQ",
+          "x": 838,
+          "y": 316,
+          "name": "image 19",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images/image 19.png",
+            "mode": "fill"
+          },
+          "width": 180,
+          "height": 180,
+          "stroke": {
+            "thickness": 0
+          }
+        },
+        {
+          "type": "group",
+          "id": "4hZuA",
+          "x": 456,
+          "y": 363,
+          "name": "Group 1",
+          "children": [
+            {
+              "type": "text",
+              "id": "pMpSN",
+              "x": 0,
+              "y": 0,
+              "name": "helloiam am",
+              "fill": "#420000ff",
+              "content": "helloiam        am",
+              "lineHeight": 0.9583333333333334,
+              "textAlign": "center",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 96,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "3Txo1",
+          "x": 729,
+          "y": 496,
+          "name": "Group 2",
+          "children": [
+            {
+              "type": "text",
+              "id": "XGxe7",
+              "x": 0,
+              "y": 0,
+              "name": "Say Hello to Flavors That Start Here",
+              "fill": "#420000ff",
+              "content": "Say Hello to Flavors That Start Here",
+              "lineHeight": 1,
+              "textAlign": "center",
+              "fontFamily": "Instrument Serif",
+              "fontSize": 44,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "XPkUz",
+      "x": 4920,
+      "y": 11404,
+      "name": "Desktop - 47",
+      "clip": true,
+      "width": 1600,
+      "height": 900,
+      "fill": "#d9dde0ff",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "IpH4e",
+          "x": 838,
+          "y": 319,
+          "name": "image 21",
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images/image 21.png",
+            "mode": "fill"
+          },
+          "width": 180,
+          "height": 180,
+          "stroke": {
+            "thickness": 0
+          }
+        },
+        {
+          "type": "group",
+          "id": "sdhiK",
+          "x": 456,
+          "y": 363,
+          "name": "Group 1",
+          "children": [
+            {
+              "type": "text",
+              "id": "LydRZ",
+              "x": 0,
+              "y": 0,
+              "name": "helloiam am",
+              "fill": "#420000ff",
+              "content": "helloiam        am",
+              "lineHeight": 0.9583333333333334,
+              "textAlign": "center",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 96,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "wlZ6i",
+          "x": 717,
+          "y": 496,
+          "name": "Group 2",
+          "children": [
+            {
+              "type": "text",
+              "id": "U98u9",
+              "x": 0,
+              "y": 0,
+              "name": "Say Hello to Mountains That Breathe",
+              "fill": "#420000ff",
+              "content": "Say Hello to Mountains That Breathe",
+              "lineHeight": 1,
+              "textAlign": "center",
+              "fontFamily": "Instrument Serif",
+              "fontSize": 44,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "YcUFm",
+      "x": -96,
+      "y": 2175,
+      "name": "Brand Guideline",
+      "clip": true,
+      "width": 1600,
+      "height": 2400,
+      "fill": "$brand-dark",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "QmoUa",
+          "x": 96,
+          "y": 140,
+          "name": "titleG",
+          "fill": "#00000000",
+          "gap": 20,
+          "alignItems": "end",
+          "children": [
+            {
+              "type": "text",
+              "id": "upGZ4",
+              "name": "titleA",
+              "fill": "$brand-white",
+              "content": "HELLO I AM ARMENIA",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 64,
+              "fontWeight": "700",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "s1tDs",
+              "name": "titleB",
+              "fill": "$brand-muted",
+              "content": "— VISUAL SYSTEM",
+              "fontFamily": "Instrument Serif",
+              "fontSize": 58,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "ITJ4j",
+          "x": 96,
+          "y": 232,
+          "name": "subtitle",
+          "fill": "$brand-muted",
+          "content": "a brand system for a country that speaks in color, type, and silhouette.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 28,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "DDzjC",
+          "x": 96,
+          "y": 296,
+          "name": "divider1",
+          "fill": "$brand-dark-soft",
+          "width": 1408,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "9jH4U",
+          "x": 96,
+          "y": 336,
+          "name": "s1Label",
+          "fill": "$brand-muted",
+          "content": "01 — COLOR",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 26,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "P4izB",
+          "x": 540,
+          "y": 336,
+          "name": "s1Desc",
+          "fill": "$brand-white",
+          "content": "One dominant hue per frame. Dark is ground. White is counter.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 22,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "frame",
+          "id": "0JtbD",
+          "x": 96,
+          "y": 400,
+          "name": "swG",
+          "width": 1408,
+          "fill": "#00000000",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "RuE8B",
+              "name": "sw1",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "w48BE",
+                  "name": "sw1b",
+                  "fill": "$brand-red",
+                  "width": "fill_container",
+                  "height": 200
+                },
+                {
+                  "type": "text",
+                  "id": "5JH1k",
+                  "name": "sw1n",
+                  "fill": "$brand-white",
+                  "content": "ACCENT 1",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 22,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "d8iAr",
+                  "name": "sw1h",
+                  "fill": "$brand-muted",
+                  "content": "#D61E23",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BMbF0",
+              "name": "sw2",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "eqTpA",
+                  "name": "sw2b",
+                  "fill": "$brand-blue",
+                  "width": "fill_container",
+                  "height": 200
+                },
+                {
+                  "type": "text",
+                  "id": "5bSEm",
+                  "name": "sw2n",
+                  "fill": "$brand-white",
+                  "content": "ACCENT 2",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 22,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "iEvNG",
+                  "name": "sw2h",
+                  "fill": "$brand-muted",
+                  "content": "#4A7BFF",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qvddG",
+              "name": "sw3",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "OOFt6",
+                  "name": "sw3b",
+                  "fill": "$brand-yellow",
+                  "width": "fill_container",
+                  "height": 200
+                },
+                {
+                  "type": "text",
+                  "id": "Lo5qm",
+                  "name": "sw3n",
+                  "fill": "$brand-white",
+                  "content": "ACCENT 3",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 22,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "M5xyB",
+                  "name": "sw3h",
+                  "fill": "$brand-muted",
+                  "content": "#FFC53A",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "abmoz",
+              "name": "sw4",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "LUSdH",
+                  "name": "sw4b",
+                  "fill": "$brand-dark",
+                  "width": "fill_container",
+                  "height": 200,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$brand-dark-soft"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "bGZ7Y",
+                  "name": "sw4n",
+                  "fill": "$brand-white",
+                  "content": "DARK",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 22,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "2rosd",
+                  "name": "sw4h",
+                  "fill": "$brand-muted",
+                  "content": "#0F0F10",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IabeQ",
+              "name": "sw5",
+              "width": "fill_container",
+              "fill": "#00000000",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "xm62k",
+                  "name": "sw5b",
+                  "fill": "$brand-white",
+                  "width": "fill_container",
+                  "height": 200
+                },
+                {
+                  "type": "text",
+                  "id": "AYk6a",
+                  "name": "sw5n",
+                  "fill": "$brand-white",
+                  "content": "WHITE",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 22,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "H6nik",
+                  "name": "sw5h",
+                  "fill": "$brand-muted",
+                  "content": "#FFFFFF",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "pQxNY",
+          "x": 96,
+          "y": 720,
+          "name": "divider2",
+          "fill": "$brand-dark-soft",
+          "width": 1408,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "EmoKw",
+          "x": 96,
+          "y": 760,
+          "name": "s2Label",
+          "fill": "$brand-muted",
+          "content": "02 — TYPOGRAPHY",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 26,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "JEphN",
+          "x": 540,
+          "y": 760,
+          "name": "s2Desc",
+          "fill": "$brand-white",
+          "content": "Sans for structure. Serif for breath.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 22,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "frame",
+          "id": "lNlcr",
+          "x": 96,
+          "y": 820,
+          "name": "typeG",
+          "width": 1408,
+          "fill": "#00000000",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "CA41e",
+              "name": "typeL",
+              "width": "fill_container",
+              "fill": "$brand-dark-soft",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 48,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "t5e9R",
+                  "name": "typeLbig",
+                  "fill": "$brand-white",
+                  "content": "Aa",
+                  "lineHeight": 1,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 220,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "iQCkd",
+                  "name": "typeLname",
+                  "fill": "$brand-white",
+                  "content": "INSTRUMENT SANS",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 22,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "eTQvG",
+                  "name": "typeLuse",
+                  "fill": "$brand-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Headlines. UPPERCASE BOLD 700.",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VxhaI",
+              "name": "typeR",
+              "width": "fill_container",
+              "fill": "$brand-dark-soft",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 48,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "P3Hfu",
+                  "name": "typeRbig",
+                  "fill": "$brand-white",
+                  "content": "Aa",
+                  "lineHeight": 1,
+                  "fontFamily": "Instrument Serif",
+                  "fontSize": 240,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "jCvYD",
+                  "name": "typeRname",
+                  "fill": "$brand-white",
+                  "content": "INSTRUMENT SERIF — ITALIC",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 22,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "xmicX",
+                  "name": "typeRuse",
+                  "fill": "$brand-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Accents, taglines, editorial pauses.",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "hVwc0",
+          "x": 96,
+          "y": 1280,
+          "name": "divider3",
+          "fill": "$brand-dark-soft",
+          "width": 1408,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "YzYT4",
+          "x": 96,
+          "y": 1320,
+          "name": "s3Label",
+          "fill": "$brand-muted",
+          "content": "03 — LOCKUP",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 26,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "xHlfo",
+          "x": 540,
+          "y": 1320,
+          "name": "s3Desc",
+          "fill": "$brand-white",
+          "content": "Four lines. One color. The topic word carries the frame.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 22,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "frame",
+          "id": "d2QdI",
+          "x": 96,
+          "y": 1380,
+          "name": "lockG",
+          "width": 1408,
+          "fill": "#00000000",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "fgVgc",
+              "name": "lk1",
+              "width": "fill_container",
+              "fill": "$brand-dark-soft",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "padding": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "9jMzd",
+                  "name": "lk1a",
+                  "fill": "$brand-white",
+                  "content": "HELLO",
+                  "lineHeight": 0.9,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 60,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "vOef7",
+                  "name": "lk1b",
+                  "fill": "$brand-white",
+                  "content": "I AM",
+                  "lineHeight": 0.9,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 60,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "UB3kb",
+                  "name": "lk1c",
+                  "fill": "$brand-red",
+                  "content": "WINE",
+                  "lineHeight": 0.9,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 60,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "738ox",
+                  "name": "lk1d",
+                  "fill": "$brand-white",
+                  "content": "ARMENIA",
+                  "lineHeight": 0.9,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 60,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LTpOW",
+              "name": "lk2",
+              "width": "fill_container",
+              "fill": "$brand-dark-soft",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "padding": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gnL6i",
+                  "name": "lk2a",
+                  "fill": "$brand-white",
+                  "content": "HELLO",
+                  "lineHeight": 0.9,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 60,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "Wysys",
+                  "name": "lk2b",
+                  "fill": "$brand-white",
+                  "content": "I AM",
+                  "lineHeight": 0.9,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 60,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "xI96p",
+                  "name": "lk2c",
+                  "fill": "$brand-yellow",
+                  "content": "FOOD",
+                  "lineHeight": 0.9,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 60,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "9lcMj",
+                  "name": "lk2d",
+                  "fill": "$brand-white",
+                  "content": "ARMENIA",
+                  "lineHeight": 0.9,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 60,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pS9ZL",
+              "name": "lk3",
+              "width": "fill_container",
+              "fill": "$brand-dark-soft",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "padding": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dzScz",
+                  "name": "lk3a",
+                  "fill": "$brand-white",
+                  "content": "HELLO",
+                  "lineHeight": 0.9,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 60,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "dnuv4",
+                  "name": "lk3b",
+                  "fill": "$brand-white",
+                  "content": "I AM",
+                  "lineHeight": 0.9,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 60,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "fAR7A",
+                  "name": "lk3c",
+                  "fill": "$brand-blue",
+                  "content": "MOUNTAINS",
+                  "lineHeight": 0.9,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 52,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "ngtlZ",
+                  "name": "lk3d",
+                  "fill": "$brand-white",
+                  "content": "ARMENIA",
+                  "lineHeight": 0.9,
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 60,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "tC1yV",
+          "x": 96,
+          "y": 1700,
+          "name": "divider4",
+          "fill": "$brand-dark-soft",
+          "width": 1408,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "GmgD7",
+          "x": 96,
+          "y": 1740,
+          "name": "s4Label",
+          "fill": "$brand-muted",
+          "content": "04 — EMOJI AS SHAPE",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 26,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "zawso",
+          "x": 540,
+          "y": 1740,
+          "name": "s4Desc",
+          "fill": "$brand-white",
+          "content": "One glyph. Oversized. Cropped. The icon is the image.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 22,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "frame",
+          "id": "jnqJt",
+          "x": 96,
+          "y": 1800,
+          "name": "emojiG",
+          "width": 1408,
+          "fill": "#00000000",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "kvCUX",
+              "name": "et1",
+              "clip": true,
+              "width": "fill_container",
+              "height": 280,
+              "fill": "$brand-dark-soft",
+              "cornerRadius": 4,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YCQwS",
+                  "x": 40,
+                  "y": -80,
+                  "name": "et1e",
+                  "fill": "$brand-red",
+                  "content": "🍷",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 440,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "tJbHR",
+                  "x": 24,
+                  "y": 240,
+                  "name": "et1l",
+                  "fill": "$brand-white",
+                  "content": "WINE · ACCENT 1",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "U5SpB",
+              "name": "et2",
+              "clip": true,
+              "width": "fill_container",
+              "height": 280,
+              "fill": "$brand-dark-soft",
+              "cornerRadius": 4,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rNFzn",
+                  "x": 40,
+                  "y": -80,
+                  "name": "et2e",
+                  "fill": "$brand-blue",
+                  "content": "⛰",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 440,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "CUcQx",
+                  "x": 24,
+                  "y": 240,
+                  "name": "et2l",
+                  "fill": "$brand-white",
+                  "content": "MOUNTAINS · ACCENT 2",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zgkNo",
+              "name": "et3",
+              "clip": true,
+              "width": "fill_container",
+              "height": 280,
+              "fill": "$brand-dark-soft",
+              "cornerRadius": 4,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rgHsB",
+                  "x": 40,
+                  "y": -80,
+                  "name": "et3e",
+                  "fill": "$brand-yellow",
+                  "content": "🍇",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 440,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Gay0K",
+                  "x": 24,
+                  "y": 240,
+                  "name": "et3l",
+                  "fill": "$brand-white",
+                  "content": "FOOD · ACCENT 3",
+                  "fontFamily": "Instrument Sans",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Mbyhm",
+      "x": 1800,
+      "y": 2700,
+      "name": "Template 01 - Typographic",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-dark",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "tetmm",
+          "x": -140,
+          "y": 120,
+          "name": "emoji1",
+          "opacity": 0.12,
+          "fill": "$brand-red",
+          "content": "🍷",
+          "fontFamily": "$sans",
+          "fontSize": 1200,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "OKlyQ",
+          "x": 96,
+          "y": 96,
+          "name": "toplabel1",
+          "fill": "$brand-muted",
+          "content": "01 — TYPOGRAPHY",
+          "fontFamily": "$sans",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "bJaO5",
+          "x": 896,
+          "y": 96,
+          "name": "idx1",
+          "fill": "$brand-muted",
+          "content": "HIA / SYS",
+          "fontFamily": "$sans",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "frame",
+          "id": "T5Dmc",
+          "x": 96,
+          "y": 340,
+          "name": "lockup1",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "vYX5w",
+              "name": "l1a",
+              "fill": "$brand-white",
+              "content": "HELLO",
+              "lineHeight": 0.9,
+              "fontFamily": "$sans",
+              "fontSize": 180,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "7Is6W",
+              "name": "l1b",
+              "fill": "$brand-white",
+              "content": "I AM",
+              "lineHeight": 0.9,
+              "fontFamily": "$sans",
+              "fontSize": 180,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "200dA",
+              "name": "l1c",
+              "fill": "$brand-red",
+              "content": "WINE",
+              "lineHeight": 0.9,
+              "fontFamily": "$sans",
+              "fontSize": 180,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "Iyxk9",
+              "name": "l1d",
+              "fill": "$brand-white",
+              "content": "ARMENIA",
+              "lineHeight": 0.9,
+              "fontFamily": "$sans",
+              "fontSize": 180,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "kl8xd",
+          "x": 96,
+          "y": 1080,
+          "name": "tagline1",
+          "fill": "$brand-white",
+          "content": "a country written in letters, not lines.",
+          "fontFamily": "$serif-italic",
+          "fontSize": 38,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "PVXWY",
+          "x": 96,
+          "y": 1220,
+          "name": "meta1",
+          "fill": "$brand-muted",
+          "content": "@HELLOIAM.ARMENIA  ·  01 / 06",
+          "fontFamily": "$sans",
+          "fontSize": 22,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "YdfBk",
+      "x": 3000,
+      "y": 2700,
+      "name": "Template 02 - Mask",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-dark",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "3Up1B",
+          "x": 360,
+          "y": 120,
+          "name": "emoji2",
+          "fill": "$brand-blue",
+          "content": "⛰",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 1300,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "b3qS7",
+          "x": 96,
+          "y": 96,
+          "name": "toplabel2",
+          "fill": "$brand-muted",
+          "content": "02 — MASK",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "Ayg3o",
+          "x": 896,
+          "y": 96,
+          "name": "idx2",
+          "fill": "$brand-muted",
+          "content": "HIA / SYS",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "frame",
+          "id": "jKBHO",
+          "x": 96,
+          "y": 340,
+          "name": "lockup2",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "wiNmk",
+              "name": "l2a",
+              "fill": "$brand-white",
+              "content": "HELLO",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 140,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "oHecl",
+              "name": "l2b",
+              "fill": "$brand-white",
+              "content": "I AM",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 140,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "zhuh0",
+              "name": "l2c",
+              "fill": "$brand-blue",
+              "content": "MOUNTAINS",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 140,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "XSdQp",
+              "name": "l2d",
+              "fill": "$brand-white",
+              "content": "ARMENIA",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 140,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "SvLaQ",
+          "x": 96,
+          "y": 1060,
+          "name": "tagline2",
+          "fill": "$brand-white",
+          "content": "where the sky starts.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 38,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "wgE0i",
+          "x": 96,
+          "y": 1220,
+          "name": "meta2",
+          "fill": "$brand-muted",
+          "content": "@HELLOIAM.ARMENIA  ·  02 / 06",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 22,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "SGP7y",
+      "x": 4200,
+      "y": 2700,
+      "name": "Template 03 - Split",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-dark",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "kNPPe",
+          "x": 0,
+          "y": 0,
+          "name": "yellowTop3",
+          "fill": "$brand-yellow",
+          "width": 1080,
+          "height": 540
+        },
+        {
+          "type": "text",
+          "id": "qZ5lm",
+          "x": 560,
+          "y": 120,
+          "name": "emoji3",
+          "opacity": 0.85,
+          "fill": "$brand-dark",
+          "content": "🍖",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 900,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "0yFnr",
+          "x": 96,
+          "y": 96,
+          "name": "toplabel3",
+          "fill": "$brand-dark",
+          "content": "03 — SPLIT",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "87TJF",
+          "x": 896,
+          "y": 96,
+          "name": "idx3",
+          "fill": "$brand-dark",
+          "content": "HIA / SYS",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "frame",
+          "id": "Rj4jP",
+          "x": 96,
+          "y": 216,
+          "name": "lockup3",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "FkKZe",
+              "name": "l3a",
+              "fill": "$brand-dark",
+              "content": "HELLO",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 180,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "lK26i",
+              "name": "l3b",
+              "fill": "$brand-dark",
+              "content": "I AM",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 180,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "5CSuD",
+              "name": "l3c",
+              "fill": "$brand-yellow",
+              "content": "FOOD",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 180,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "uIN6Y",
+              "name": "l3d",
+              "fill": "$brand-white",
+              "content": "ARMENIA",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 180,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "hkvm4",
+          "x": 96,
+          "y": 1080,
+          "name": "tagline3",
+          "fill": "$brand-white",
+          "content": "the taste of a mountain table.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 38,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "1cnD5",
+          "x": 96,
+          "y": 1220,
+          "name": "meta3",
+          "fill": "$brand-muted",
+          "content": "@HELLOIAM.ARMENIA  ·  03 / 06",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 22,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "BqoA0",
+      "x": 1800,
+      "y": 4200,
+      "name": "Post - WINE",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-dark",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "iO5k3",
+          "x": 0,
+          "y": 0,
+          "name": "redTop4",
+          "fill": "$brand-red",
+          "width": 1080,
+          "height": 540
+        },
+        {
+          "type": "text",
+          "id": "pUtlz",
+          "x": 620,
+          "y": -40,
+          "name": "emoji4",
+          "opacity": 0.9,
+          "fill": "$brand-dark",
+          "content": "🍷",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 900,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "uA6oY",
+          "x": 96,
+          "y": 96,
+          "name": "toplabel4",
+          "fill": "$brand-dark",
+          "content": "POST · AREN",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "yrlDD",
+          "x": 858,
+          "y": 96,
+          "name": "idx4",
+          "fill": "$brand-dark",
+          "content": "HIA / WINE",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "frame",
+          "id": "2RZbq",
+          "x": 96,
+          "y": 216,
+          "name": "lockup4",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "r4EZN",
+              "name": "l4a",
+              "fill": "$brand-dark",
+              "content": "HELLO",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 180,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "a1Cvo",
+              "name": "l4b",
+              "fill": "$brand-dark",
+              "content": "I AM",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 180,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "q3VDh",
+              "name": "l4c",
+              "fill": "$brand-red",
+              "content": "WINE",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 180,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "Ovq6P",
+              "name": "l4d",
+              "fill": "$brand-white",
+              "content": "ARMENIA",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 180,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "6lorD",
+          "x": 96,
+          "y": 1080,
+          "name": "tagline4",
+          "fill": "$brand-white",
+          "content": "from Areni, with love.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 44,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "d1wdJ",
+          "x": 96,
+          "y": 1220,
+          "name": "meta4",
+          "fill": "$brand-muted",
+          "content": "@HELLOIAM.ARMENIA  ·  04 / 06",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 22,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "QikU8",
+      "x": 3000,
+      "y": 4200,
+      "name": "Post - FOOD",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-dark",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "tKwck",
+          "x": -420,
+          "y": 100,
+          "name": "emoji5",
+          "fill": "$brand-yellow",
+          "content": "🍇",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 1000,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "p2cD0",
+          "x": 96,
+          "y": 96,
+          "name": "toplabel5",
+          "fill": "$brand-muted",
+          "content": "POST · SUPRA",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "mpx6p",
+          "x": 858,
+          "y": 96,
+          "name": "idx5",
+          "fill": "$brand-muted",
+          "content": "HIA / FOOD",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "frame",
+          "id": "TVda6",
+          "x": 480,
+          "y": 340,
+          "name": "lockup5",
+          "width": 504,
+          "fill": "#00000000",
+          "layout": "vertical",
+          "alignItems": "end",
+          "children": [
+            {
+              "type": "text",
+              "id": "wcaXF",
+              "name": "l5a",
+              "fill": "$brand-white",
+              "content": "HELLO",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 140,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "Tr28n",
+              "name": "l5b",
+              "fill": "$brand-white",
+              "content": "I AM",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 140,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "6BPwJ",
+              "name": "l5c",
+              "fill": "$brand-yellow",
+              "content": "FOOD",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 140,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "OMWZx",
+              "name": "l5d",
+              "fill": "$brand-white",
+              "content": "ARMENIA",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 140,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "nuvSB",
+          "x": 480,
+          "y": 1080,
+          "name": "tagline5",
+          "fill": "$brand-muted",
+          "textGrowth": "fixed-width",
+          "width": 504,
+          "content": "the taste of a mountain table.",
+          "textAlign": "right",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 36,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "gGvq2",
+          "x": 480,
+          "y": 1220,
+          "name": "meta5",
+          "fill": "$brand-muted",
+          "textGrowth": "fixed-width",
+          "width": 504,
+          "content": "@HELLOIAM.ARMENIA  ·  05 / 06",
+          "textAlign": "right",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 22,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "1dLWe",
+      "x": 4200,
+      "y": 4200,
+      "name": "Post - MOUNTAINS",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-dark",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "Rk8s9",
+          "x": 280,
+          "y": 250,
+          "name": "emoji6",
+          "opacity": 0.14,
+          "fill": "$brand-blue",
+          "content": "⛰",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 1200,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "yN0ao",
+          "x": 96,
+          "y": 96,
+          "name": "toplabel6",
+          "fill": "$brand-muted",
+          "content": "POST · ARAGATS",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "TIAgf",
+          "x": 848,
+          "y": 96,
+          "name": "idx6",
+          "fill": "$brand-muted",
+          "content": "HIA / MOUNT",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "letterSpacing": 2
+        },
+        {
+          "type": "frame",
+          "id": "z8UzV",
+          "x": 96,
+          "y": 320,
+          "name": "lockup6",
+          "fill": "#00000000",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "text",
+              "id": "oybKz",
+              "name": "l6a",
+              "fill": "$brand-white",
+              "content": "HELLO",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 170,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "NafNs",
+              "name": "l6b",
+              "fill": "$brand-white",
+              "content": "I AM",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 170,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "E0zS8",
+              "name": "l6c",
+              "fill": "$brand-blue",
+              "content": "MOUNTAINS",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 170,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "moBT1",
+              "name": "l6d",
+              "fill": "$brand-white",
+              "content": "ARMENIA",
+              "lineHeight": 0.9,
+              "fontFamily": "Instrument Sans",
+              "fontSize": 170,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "yx3wT",
+          "x": 96,
+          "y": 1080,
+          "name": "tagline6",
+          "fill": "$brand-white",
+          "content": "where the sky starts.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 44,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "ctM7l",
+          "x": 96,
+          "y": 1220,
+          "name": "meta6",
+          "fill": "$brand-muted",
+          "content": "@HELLOIAM.ARMENIA  ·  06 / 06",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 22,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "xealA",
+      "x": 1800,
+      "y": 5700,
+      "name": "Post - YEREVAN NIGHTS",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-dark",
+      "layout": "none",
+      "children": [
+        {
+          "type": "icon_font",
+          "id": "pMwmi",
+          "x": 460,
+          "y": -60,
+          "name": "moonIcon",
+          "opacity": 0.18,
+          "width": 820,
+          "height": 820,
+          "iconFontName": "moon",
+          "iconFontFamily": "lucide",
+          "fill": "$brand-blue"
+        },
+        {
+          "type": "icon_font",
+          "id": "NFNaw",
+          "x": 160,
+          "y": 320,
+          "name": "starIcon",
+          "opacity": 0.6,
+          "width": 64,
+          "height": 64,
+          "iconFontName": "star",
+          "iconFontFamily": "lucide",
+          "fill": "$brand-blue"
+        },
+        {
+          "type": "icon_font",
+          "id": "Yan60",
+          "x": 920,
+          "y": 980,
+          "name": "starIcon2",
+          "opacity": 0.5,
+          "width": 40,
+          "height": 40,
+          "iconFontName": "star",
+          "iconFontFamily": "lucide",
+          "fill": "$brand-blue"
+        },
+        {
+          "type": "text",
+          "id": "0e5fc",
+          "x": 88,
+          "y": 100,
+          "name": "topLabel",
+          "fill": "$brand-muted",
+          "content": "— NIGHT EDITION",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 26,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "1KedO",
+          "x": 900,
+          "y": 100,
+          "name": "topIndex",
+          "fill": "$brand-muted",
+          "content": "04 / 06",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 26,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        },
+        {
+          "type": "rectangle",
+          "id": "HiQli",
+          "x": 88,
+          "y": 160,
+          "name": "divider",
+          "fill": "#2A2A2E",
+          "width": 904,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "Lgc50",
+          "x": 88,
+          "y": 440,
+          "name": "line1",
+          "fill": "$brand-white",
+          "content": "HELLO",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 180,
+          "fontWeight": "700",
+          "letterSpacing": -4
+        },
+        {
+          "type": "text",
+          "id": "PJ9A6",
+          "x": 88,
+          "y": 602,
+          "name": "line2",
+          "fill": "$brand-white",
+          "content": "I AM",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 180,
+          "fontWeight": "700",
+          "letterSpacing": -4
+        },
+        {
+          "type": "text",
+          "id": "J5dnD",
+          "x": 88,
+          "y": 764,
+          "name": "line3",
+          "fill": "$brand-blue",
+          "content": "YEREVAN",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 180,
+          "fontWeight": "700",
+          "letterSpacing": -4
+        },
+        {
+          "type": "text",
+          "id": "naj9G",
+          "x": 88,
+          "y": 926,
+          "name": "line4",
+          "fill": "$brand-white",
+          "content": "ARMENIA",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 180,
+          "fontWeight": "700",
+          "letterSpacing": -4
+        },
+        {
+          "type": "text",
+          "id": "tSptV",
+          "x": 88,
+          "y": 1150,
+          "name": "tagline",
+          "fill": "$brand-blue",
+          "content": "at night.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 56,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "x1ZYa",
+          "x": 88,
+          "y": 1240,
+          "name": "footerDivider",
+          "fill": "#2A2A2E",
+          "width": 904,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "41yDV",
+          "x": 88,
+          "y": 1270,
+          "name": "footer",
+          "fill": "$brand-muted",
+          "content": "@HELLOIAM.ARMENIA",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 22,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "TOvnw",
+          "x": 820,
+          "y": 1270,
+          "name": "footerRight",
+          "fill": "$brand-muted",
+          "content": "YEREVAN · 40.18°N",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 22,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "OR2fe",
+      "x": 3000,
+      "y": 5700,
+      "name": "Post - SUN",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-dark",
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "wjqrv",
+          "x": 0,
+          "y": 0,
+          "name": "yellowTop",
+          "fill": "$brand-yellow",
+          "width": 1080,
+          "height": 540
+        },
+        {
+          "type": "icon_font",
+          "id": "nB2IT",
+          "x": 290,
+          "y": 200,
+          "name": "sunIcon",
+          "width": 500,
+          "height": 500,
+          "iconFontName": "sun",
+          "iconFontFamily": "lucide",
+          "fill": "$brand-dark"
+        },
+        {
+          "type": "text",
+          "id": "EsTGx",
+          "x": 88,
+          "y": 88,
+          "name": "topLabel5",
+          "fill": "$brand-dark",
+          "content": "— SUMMER EDITION",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 26,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "N5wb1",
+          "x": 900,
+          "y": 88,
+          "name": "topIndex5",
+          "fill": "$brand-dark",
+          "content": "05 / 06",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 26,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "iPg68",
+          "x": 88,
+          "y": 486,
+          "name": "topTag5",
+          "fill": "$brand-dark",
+          "content": "3,000+ hours of sun a year",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 34,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "DJtS7",
+          "x": 88,
+          "y": 620,
+          "name": "line5a",
+          "fill": "$brand-white",
+          "content": "HELLO",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 150,
+          "fontWeight": "700",
+          "letterSpacing": -3
+        },
+        {
+          "type": "text",
+          "id": "htvEw",
+          "x": 88,
+          "y": 755,
+          "name": "line5b",
+          "fill": "$brand-white",
+          "content": "I AM",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 150,
+          "fontWeight": "700",
+          "letterSpacing": -3
+        },
+        {
+          "type": "text",
+          "id": "xIH4Z",
+          "x": 88,
+          "y": 890,
+          "name": "line5c",
+          "fill": "$brand-yellow",
+          "content": "THE SUN",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 150,
+          "fontWeight": "700",
+          "letterSpacing": -3
+        },
+        {
+          "type": "text",
+          "id": "gzbf5",
+          "x": 88,
+          "y": 1025,
+          "name": "line5d",
+          "fill": "$brand-white",
+          "content": "ARMENIA",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 150,
+          "fontWeight": "700",
+          "letterSpacing": -3
+        },
+        {
+          "type": "text",
+          "id": "IrbP2",
+          "x": 88,
+          "y": 1200,
+          "name": "tagline5",
+          "fill": "$brand-yellow",
+          "content": "golden from dawn to dusk.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 44,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "qeqP6",
+          "x": 88,
+          "y": 1270,
+          "name": "footerDivider5",
+          "fill": "#2A2A2E",
+          "width": 904,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "4MOtV",
+          "x": 88,
+          "y": 1298,
+          "name": "footer5",
+          "fill": "$brand-muted",
+          "content": "@HELLOIAM.ARMENIA",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 22,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "bMyds",
+          "x": 820,
+          "y": 1298,
+          "name": "footerRight5",
+          "fill": "$brand-muted",
+          "content": "ARARAT VALLEY",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 22,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "kq9Y9",
+      "x": 4200,
+      "y": 5700,
+      "name": "Post - LOCAL LIFE",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-dark",
+      "layout": "none",
+      "children": [
+        {
+          "type": "icon_font",
+          "id": "9zr1z",
+          "x": 640,
+          "y": -80,
+          "name": "grapeIcon",
+          "width": 520,
+          "height": 520,
+          "iconFontName": "grape",
+          "iconFontFamily": "lucide",
+          "fill": "$brand-red"
+        },
+        {
+          "type": "icon_font",
+          "id": "UmAIs",
+          "x": 140,
+          "y": 260,
+          "name": "leafIcon",
+          "opacity": 0.9,
+          "width": 56,
+          "height": 56,
+          "iconFontName": "leaf",
+          "iconFontFamily": "lucide",
+          "fill": "$brand-red"
+        },
+        {
+          "type": "text",
+          "id": "Ev9Ik",
+          "x": 88,
+          "y": 100,
+          "name": "topLabel6",
+          "enabled": false,
+          "fill": "$brand-muted",
+          "content": "— LOCAL EDITION",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 26,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "XTAjF",
+          "x": 88,
+          "y": 100,
+          "name": "topIndex6",
+          "fill": "$brand-muted",
+          "content": "— LOCAL EDITION  ·  06 / 06",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 26,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        },
+        {
+          "type": "rectangle",
+          "id": "Winf6",
+          "x": 88,
+          "y": 160,
+          "name": "divider6",
+          "fill": "#2A2A2E",
+          "width": 904,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "JtuY2",
+          "x": 88,
+          "y": 440,
+          "name": "line6a",
+          "fill": "$brand-white",
+          "content": "HELLO",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 180,
+          "fontWeight": "700",
+          "letterSpacing": -4
+        },
+        {
+          "type": "text",
+          "id": "E8YgZ",
+          "x": 88,
+          "y": 602,
+          "name": "line6b",
+          "fill": "$brand-white",
+          "content": "I AM",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 180,
+          "fontWeight": "700",
+          "letterSpacing": -4
+        },
+        {
+          "type": "text",
+          "id": "gwwtR",
+          "x": 88,
+          "y": 764,
+          "name": "line6c",
+          "fill": "$brand-red",
+          "content": "LOCAL",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 180,
+          "fontWeight": "700",
+          "letterSpacing": -4
+        },
+        {
+          "type": "text",
+          "id": "o3QG1",
+          "x": 88,
+          "y": 926,
+          "name": "line6d",
+          "fill": "$brand-white",
+          "content": "ARMENIA",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 180,
+          "fontWeight": "700",
+          "letterSpacing": -4
+        },
+        {
+          "type": "text",
+          "id": "8Wkhi",
+          "x": 88,
+          "y": 1150,
+          "name": "tagline6",
+          "fill": "$brand-red",
+          "content": "slow mornings, full tables.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 52,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "rectangle",
+          "id": "NGhB4",
+          "x": 88,
+          "y": 1240,
+          "name": "footerDivider6",
+          "fill": "#2A2A2E",
+          "width": 904,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "qXPKq",
+          "x": 88,
+          "y": 1270,
+          "name": "footer6",
+          "fill": "$brand-muted",
+          "content": "@HELLOIAM.ARMENIA",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 22,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "oudmE",
+          "x": 740,
+          "y": 1270,
+          "name": "footerRight6",
+          "fill": "$brand-muted",
+          "content": "VILLAGE · CITY · HOME",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 22,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "NqqZW",
+      "x": 1800,
+      "y": 7500,
+      "name": "WINE Post - Variation A",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-dark",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "1UgnU",
+          "x": 88,
+          "y": 88,
+          "name": "topLabel",
+          "fill": "$brand-muted",
+          "content": "— VINTAGE EDITION",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "NwNMn",
+          "x": 920,
+          "y": 88,
+          "name": "topIndex",
+          "fill": "$brand-muted",
+          "content": "01 / 06",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "500",
+          "letterSpacing": 2
+        },
+        {
+          "type": "rectangle",
+          "id": "06aHE",
+          "x": 88,
+          "y": 138,
+          "name": "divider",
+          "fill": "#2A2A2E",
+          "width": 904,
+          "height": 1
+        },
+        {
+          "type": "path",
+          "id": "GUCVC",
+          "x": 280,
+          "y": 140,
+          "name": "glass",
+          "geometry": "M30 10l140 0c0 60-40 110-55 120l0 90 55 0 0 15-140 0 0-15 55 0 0-90c-15-10-55-60-55-120z",
+          "viewBox": [
+            0,
+            0,
+            200,
+            250
+          ],
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images/generated-1776619204580.png",
+            "mode": "fill"
+          },
+          "width": 520,
+          "height": 650
+        },
+        {
+          "type": "text",
+          "id": "Ffd0w",
+          "x": 88,
+          "y": 815,
+          "name": "tagline",
+          "fill": "$brand-red",
+          "content": "from Areni, with love.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 34,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "xntnp",
+          "x": 88,
+          "y": 870,
+          "name": "line1",
+          "fill": "$brand-white",
+          "content": "HELLO",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 110,
+          "fontWeight": "700",
+          "letterSpacing": -3
+        },
+        {
+          "type": "text",
+          "id": "03PCl",
+          "x": 88,
+          "y": 970,
+          "name": "line2",
+          "fill": "$brand-white",
+          "content": "I AM",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 110,
+          "fontWeight": "700",
+          "letterSpacing": -3
+        },
+        {
+          "type": "text",
+          "id": "a5n1z",
+          "x": 88,
+          "y": 1070,
+          "name": "line3",
+          "fill": "$brand-red",
+          "content": "WINE",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 110,
+          "fontWeight": "700",
+          "letterSpacing": -3
+        },
+        {
+          "type": "text",
+          "id": "kbm3l",
+          "x": 88,
+          "y": 1170,
+          "name": "line4",
+          "fill": "$brand-white",
+          "content": "ARMENIA",
+          "lineHeight": 0.9,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 110,
+          "fontWeight": "700",
+          "letterSpacing": -3
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "a0QWx",
+      "x": 3000,
+      "y": 7500,
+      "name": "WINE Post - Variation B",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-dark",
+      "layout": "none",
+      "children": [
+        {
+          "type": "path",
+          "id": "3VEZR",
+          "x": 560,
+          "y": 180,
+          "name": "glass",
+          "geometry": "M30 10l140 0c0 60-40 110-55 120l0 90 55 0 0 15-140 0 0-15 55 0 0-90c-15-10-55-60-55-120z",
+          "viewBox": [
+            0,
+            0,
+            200,
+            250
+          ],
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images/generated-1776619133134.png",
+            "mode": "fill"
+          },
+          "width": 780,
+          "height": 975
+        },
+        {
+          "type": "text",
+          "id": "p8uIc",
+          "x": 60,
+          "y": 80,
+          "name": "topStamp",
+          "fill": "$brand-muted",
+          "content": "VOL 01  ·  ISSUE 06  ·  MMXXVI",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 13,
+          "fontWeight": "700",
+          "letterSpacing": 3
+        },
+        {
+          "type": "rectangle",
+          "id": "slFGL",
+          "x": 60,
+          "y": 110,
+          "name": "topRule",
+          "fill": "$brand-red",
+          "width": 80,
+          "height": 2
+        },
+        {
+          "type": "text",
+          "id": "VHkPr",
+          "x": 60,
+          "y": 130,
+          "name": "topKicker",
+          "fill": "$brand-white",
+          "content": "A DISPATCH FROM THE SOUTH CAUCASUS",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 14,
+          "fontWeight": "700",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "kxpGd",
+          "x": 60,
+          "y": 240,
+          "name": "hello",
+          "fill": "$brand-white",
+          "content": "HELLO",
+          "lineHeight": 0.88,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 160,
+          "fontWeight": "700",
+          "letterSpacing": -5
+        },
+        {
+          "type": "text",
+          "id": "tXhbg",
+          "x": 60,
+          "y": 380,
+          "name": "iam",
+          "fill": "$brand-white",
+          "content": "I AM",
+          "lineHeight": 0.88,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 160,
+          "fontWeight": "700",
+          "letterSpacing": -5
+        },
+        {
+          "type": "text",
+          "id": "gCJUk",
+          "x": 60,
+          "y": 520,
+          "name": "wine",
+          "fill": "$brand-red",
+          "content": "WINE",
+          "lineHeight": 0.88,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 160,
+          "fontWeight": "700",
+          "letterSpacing": -5
+        },
+        {
+          "type": "text",
+          "id": "p9rnU",
+          "x": 60,
+          "y": 660,
+          "name": "armenia",
+          "fill": "$brand-white",
+          "content": "ARMENIA",
+          "lineHeight": 0.88,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 140,
+          "fontWeight": "700",
+          "letterSpacing": -5
+        },
+        {
+          "type": "rectangle",
+          "id": "pVsQv",
+          "x": 60,
+          "y": 840,
+          "name": "midRule",
+          "fill": "$brand-red",
+          "width": 50,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "8fkGc",
+          "x": 60,
+          "y": 865,
+          "name": "tagline",
+          "fill": "$brand-red",
+          "content": "from Areni, with love.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 44,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "O3boZ",
+          "x": 60,
+          "y": 935,
+          "name": "quote",
+          "fill": "$brand-white",
+          "content": "six thousand years of harvest,",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 26,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "NUjkD",
+          "x": 60,
+          "y": 970,
+          "name": "quote2",
+          "fill": "$brand-white",
+          "content": "poured into a single evening.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 26,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "7rjjl",
+          "x": 60,
+          "y": 1180,
+          "name": "sideLabel",
+          "fill": "$brand-muted",
+          "content": "NO. 06",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 12,
+          "fontWeight": "700",
+          "letterSpacing": 3
+        },
+        {
+          "type": "rectangle",
+          "id": "Vr9et",
+          "x": 60,
+          "y": 1220,
+          "name": "bottomRule",
+          "fill": "$brand-muted",
+          "width": 960,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "LT6TP",
+          "x": 60,
+          "y": 1240,
+          "name": "meta",
+          "fill": "$brand-muted",
+          "content": "@HELLOIAM.ARMENIA  ·  AREN[I] VALLEY  ·  01 / 06",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 13,
+          "fontWeight": "700",
+          "letterSpacing": 2
+        },
+        {
+          "type": "ellipse",
+          "id": "BRTOJ",
+          "x": 990,
+          "y": 1190,
+          "name": "redDot",
+          "fill": "$brand-red",
+          "width": 10,
+          "height": 10
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "9zein",
+      "x": 96,
+      "y": 5180,
+      "name": "emojiG variant A",
+      "width": 1408,
+      "fill": "#00000000",
+      "gap": 24,
+      "children": [
+        {
+          "type": "frame",
+          "id": "ES4KO",
+          "name": "et1",
+          "clip": true,
+          "width": "fill_container",
+          "height": 280,
+          "fill": "$brand-red",
+          "cornerRadius": 4,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "BAQMw",
+              "x": 24,
+              "y": 240,
+              "name": "et1l",
+              "fill": "$brand-white",
+              "content": "WINE · RED",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "JPihP",
+              "x": 32,
+              "y": 24,
+              "name": "wine mask",
+              "clip": true,
+              "width": 389,
+              "height": 196,
+              "fill": "#00000000",
+              "cornerRadius": 98,
+              "stroke": {
+                "align": "inside",
+                "thickness": 0,
+                "fill": "$brand-white"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "k60qk",
+                  "x": 0,
+                  "y": 0,
+                  "name": "imgWine",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "hoainamish",
+                    "link": "https://unsplash.com/@hoainamish",
+                    "author": "Hoai Nam Mai"
+                  },
+                  "width": 389,
+                  "height": 196,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1773518097434-a6bd7eebc818?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2MjAwNzB8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "layout": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nLUAC",
+          "name": "et2",
+          "clip": true,
+          "width": "fill_container",
+          "height": 280,
+          "fill": "$brand-blue",
+          "cornerRadius": 4,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "JYPrg",
+              "x": 24,
+              "y": 240,
+              "name": "et2l",
+              "fill": "$brand-white",
+              "content": "MOUNTAINS · BLUE",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "4FMqU",
+              "x": 32,
+              "y": 24,
+              "name": "mountain mask",
+              "clip": true,
+              "width": 389,
+              "height": 196,
+              "fill": "#00000000",
+              "cornerRadius": 98,
+              "stroke": {
+                "align": "inside",
+                "thickness": 0,
+                "fill": "$brand-white"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "U1jRr",
+                  "x": 0,
+                  "y": 0,
+                  "name": "imgMount",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "benjaminsharpe",
+                    "link": "https://unsplash.com/@benjaminsharpe",
+                    "author": "Benjamin Sharpe"
+                  },
+                  "width": 389,
+                  "height": 196,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1644345913386-ecbcdeb4c5e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2MjAwNzF8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "layout": "none"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "z03Jn",
+          "name": "et3",
+          "clip": true,
+          "width": "fill_container",
+          "height": 280,
+          "fill": "$brand-yellow",
+          "cornerRadius": 4,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "5nsIi",
+              "x": 24,
+              "y": 240,
+              "name": "et3l",
+              "fill": "$brand-white",
+              "content": "FOOD · YELLOW",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "nizQZ",
+              "x": 32,
+              "y": 24,
+              "name": "food mask",
+              "clip": true,
+              "width": 389,
+              "height": 196,
+              "fill": "#00000000",
+              "cornerRadius": 98,
+              "stroke": {
+                "align": "inside",
+                "thickness": 0,
+                "fill": "$brand-white"
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gA9tY",
+                  "x": 0,
+                  "y": 0,
+                  "name": "imgFood",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "kstudios",
+                    "link": "https://unsplash.com/@kstudios",
+                    "author": "K Studios"
+                  },
+                  "width": 389,
+                  "height": 196,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1764265923426-4e550ccd1351?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2MjAwOTR8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "layout": "none"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "YE2rm",
+      "x": 96,
+      "y": 5500,
+      "name": "emojiG variant B",
+      "width": 1408,
+      "fill": "#00000000",
+      "gap": 24,
+      "children": [
+        {
+          "type": "frame",
+          "id": "iQv20",
+          "name": "et1",
+          "clip": true,
+          "width": "fill_container",
+          "height": 280,
+          "fill": "$brand-red",
+          "cornerRadius": 4,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "FbAnr",
+              "x": 68,
+              "y": 22,
+              "name": "photo1",
+              "metadata": {
+                "type": "unsplash",
+                "username": "___pi___",
+                "link": "https://unsplash.com/@___pi___",
+                "author": "paola capelletto"
+              },
+              "clip": true,
+              "width": 320,
+              "height": 216,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1699438816383-7b4db40b21d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2MjAwNTh8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 4,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "15Bcf",
+              "x": 40,
+              "y": -80,
+              "name": "et1e",
+              "enabled": false,
+              "fill": "#00000000",
+              "content": "🍷",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 440,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "6I9gY",
+              "x": 24,
+              "y": 240,
+              "name": "et1l",
+              "fill": "$brand-white",
+              "content": "WINE · RED",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sdL3a",
+          "name": "et2",
+          "clip": true,
+          "width": "fill_container",
+          "height": 280,
+          "fill": "$brand-blue",
+          "cornerRadius": 4,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "YtUnx",
+              "x": 68,
+              "y": 22,
+              "name": "photo2",
+              "metadata": {
+                "type": "unsplash",
+                "username": "conti_photos",
+                "link": "https://unsplash.com/@conti_photos",
+                "author": "Fabrizio Conti"
+              },
+              "clip": true,
+              "width": 320,
+              "height": 216,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1530273973427-22351773250c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2MjAwNTl8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 4,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "S1bZT",
+              "x": 40,
+              "y": -80,
+              "name": "et2e",
+              "enabled": false,
+              "fill": "#00000000",
+              "content": "⛰",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 440,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "fpNAt",
+              "x": 24,
+              "y": 240,
+              "name": "et2l",
+              "fill": "$brand-white",
+              "content": "MOUNTAINS · BLUE",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "v1eO4",
+          "name": "et3",
+          "clip": true,
+          "width": "fill_container",
+          "height": 280,
+          "fill": "$brand-yellow",
+          "cornerRadius": 4,
+          "layout": "none",
+          "children": [
+            {
+              "type": "frame",
+              "id": "VbtMy",
+              "x": 68,
+              "y": 22,
+              "name": "photo3",
+              "metadata": {
+                "type": "unsplash",
+                "username": "grissphoto",
+                "link": "https://unsplash.com/@grissphoto",
+                "author": "Max Griss"
+              },
+              "clip": true,
+              "width": 320,
+              "height": 216,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1620791144170-8a443bf37a33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2MjAwNTl8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 4,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "7W7Rz",
+              "x": 40,
+              "y": -80,
+              "name": "et3e",
+              "enabled": false,
+              "fill": "#00000000",
+              "content": "🍇",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 440,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "KyIdB",
+              "x": 24,
+              "y": 240,
+              "name": "et3l",
+              "fill": "$brand-white",
+              "content": "FOOD · YELLOW",
+              "fontFamily": "Instrument Sans",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "LQnIO",
+      "x": 4200,
+      "y": 7500,
+      "name": "WINE Carousel 02",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-white",
+      "layout": "none",
+      "children": [
+        {
+          "type": "path",
+          "id": "LhV8n",
+          "x": 280,
+          "y": 170,
+          "name": "glass",
+          "geometry": "M30 10l140 0c0 60-40 110-55 120l0 90 55 0 0 15-140 0 0-15 55 0 0-90c-15-10-55-60-55-120z",
+          "viewBox": [
+            0,
+            0,
+            200,
+            250
+          ],
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images/generated-1776619133134.png",
+            "mode": "fill"
+          },
+          "width": 740,
+          "height": 820
+        },
+        {
+          "type": "text",
+          "id": "9JMGD",
+          "x": 60,
+          "y": 72,
+          "name": "topKicker",
+          "fill": "$brand-red",
+          "content": "РУБРИКА: ВИНО АРМЕНИИ",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "letterSpacing": 1
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "7vf8s",
+      "x": 5400,
+      "y": 7500,
+      "name": "WINE Carousel 03",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-yellow",
+      "layout": "none",
+      "children": [
+        {
+          "type": "path",
+          "id": "aT2DR",
+          "x": 160,
+          "y": 210,
+          "name": "glass",
+          "geometry": "M30 10l140 0c0 60-40 110-55 120l0 90 55 0 0 15-140 0 0-15 55 0 0-90c-15-10-55-60-55-120z",
+          "viewBox": [
+            0,
+            0,
+            200,
+            250
+          ],
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images/generated-1776619133134.png",
+            "mode": "fill"
+          },
+          "width": 860,
+          "height": 900
+        },
+        {
+          "type": "text",
+          "id": "9xal5",
+          "x": 60,
+          "y": 72,
+          "name": "topKicker",
+          "fill": "$brand-blue",
+          "content": "РУБРИКА: ВИНО АРМЕНИИ",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "letterSpacing": 1
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "H5JqN",
+      "x": 6600,
+      "y": 7500,
+      "name": "WINE Carousel 04",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-white",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "HIht9",
+          "x": 60,
+          "y": 76,
+          "name": "rub4",
+          "fill": "$brand-red",
+          "content": "WINE · ARMENIA",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 28,
+          "fontWeight": "700",
+          "letterSpacing": 2
+        },
+        {
+          "type": "frame",
+          "id": "euu9I",
+          "x": 60,
+          "y": 150,
+          "name": "hero4",
+          "metadata": {
+            "type": "unsplash",
+            "username": "benjaminmerkle",
+            "link": "https://unsplash.com/@benjaminmerkle",
+            "author": "Benjamin Merkle"
+          },
+          "clip": true,
+          "width": 960,
+          "height": 1060,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1619525185436-a9343401bf00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2MjIyMDV8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          },
+          "cornerRadius": 24
+        },
+        {
+          "type": "text",
+          "id": "el0Bt",
+          "x": 900,
+          "y": 76,
+          "name": "pag4",
+          "fill": "$brand-blue",
+          "content": "04 / 06",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "letterSpacing": 2
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "AtsIs",
+      "x": 7800,
+      "y": 7500,
+      "name": "WINE Carousel 05",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-white",
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "u1dme",
+          "x": 60,
+          "y": 76,
+          "name": "rub5",
+          "fill": "$brand-blue",
+          "content": "WINE · ARMENIA",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 28,
+          "fontWeight": "700",
+          "letterSpacing": 2
+        },
+        {
+          "type": "frame",
+          "id": "f5Wjt",
+          "x": 60,
+          "y": 150,
+          "name": "hero5",
+          "metadata": {
+            "type": "unsplash",
+            "username": "weareambitious",
+            "link": "https://unsplash.com/@weareambitious",
+            "author": "Ambitious Studio* | Rick Barrett"
+          },
+          "clip": true,
+          "width": 960,
+          "height": 1060,
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1705917893723-61df7a61ee2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzY2MjIyMjJ8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          },
+          "cornerRadius": 24
+        },
+        {
+          "type": "text",
+          "id": "HRqlw",
+          "x": 900,
+          "y": 76,
+          "name": "pag5",
+          "fill": "$brand-red",
+          "content": "05 / 06",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 24,
+          "fontWeight": "700",
+          "letterSpacing": 2
+        }
+      ]
+    },
+    {
+      "type": "rectangle",
+      "id": "9koOI",
+      "x": 524,
+      "y": 6036,
+      "name": "image 25",
+      "fill": {
+        "type": "image",
+        "enabled": true,
+        "url": "",
+        "mode": "fill"
+      },
+      "width": 552,
+      "height": 828,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      }
+    },
+    {
+      "type": "frame",
+      "id": "GaFqi",
+      "x": 9123,
+      "y": 7500,
+      "name": "WINE Post - Variation B",
+      "clip": true,
+      "width": 1080,
+      "height": 1350,
+      "fill": "$brand-dark",
+      "layout": "none",
+      "children": [
+        {
+          "type": "path",
+          "id": "OO8s9",
+          "x": 511,
+          "y": 147,
+          "name": "glass",
+          "geometry": "M30 10l140 0c0 60-40 110-55 120l0 90 55 0 0 15-140 0 0-15 55 0 0-90c-15-10-55-60-55-120z",
+          "viewBox": [
+            0,
+            0,
+            200,
+            250
+          ],
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "images/generated-1776619133134.png",
+            "mode": "fill"
+          },
+          "width": 828,
+          "height": 1035
+        },
+        {
+          "type": "text",
+          "id": "3x80r",
+          "x": 60,
+          "y": 80,
+          "name": "topStamp",
+          "fill": "$brand-muted",
+          "content": "VOL 01  ·  ISSUE 06  ·  MMXXVI",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 13,
+          "fontWeight": "700",
+          "letterSpacing": 3
+        },
+        {
+          "type": "rectangle",
+          "id": "2NMJ7",
+          "x": 60,
+          "y": 110,
+          "name": "topRule",
+          "fill": "$brand-red",
+          "width": 80,
+          "height": 2
+        },
+        {
+          "type": "text",
+          "id": "p5zHp",
+          "x": 60,
+          "y": 130,
+          "name": "topKicker",
+          "fill": "$brand-white",
+          "content": "A DISPATCH FROM THE SOUTH CAUCASUS",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 14,
+          "fontWeight": "700",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "tIGn1",
+          "x": 60,
+          "y": 240,
+          "name": "hello",
+          "fill": "$brand-white",
+          "content": "HELLO",
+          "lineHeight": 0.88,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 160,
+          "fontWeight": "700",
+          "letterSpacing": -5
+        },
+        {
+          "type": "text",
+          "id": "dLvAj",
+          "x": 60,
+          "y": 380,
+          "name": "iam",
+          "fill": "$brand-white",
+          "content": "I AM",
+          "lineHeight": 0.88,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 160,
+          "fontWeight": "700",
+          "letterSpacing": -5
+        },
+        {
+          "type": "text",
+          "id": "SBg6O",
+          "x": 60,
+          "y": 520,
+          "name": "wine",
+          "fill": "$brand-red",
+          "content": "WINE",
+          "lineHeight": 0.88,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 160,
+          "fontWeight": "700",
+          "letterSpacing": -5
+        },
+        {
+          "type": "text",
+          "id": "rur6j",
+          "x": 60,
+          "y": 660,
+          "name": "armenia",
+          "fill": "$brand-white",
+          "content": "ARMENIA",
+          "lineHeight": 0.88,
+          "fontFamily": "Instrument Sans",
+          "fontSize": 140,
+          "fontWeight": "700",
+          "letterSpacing": -5
+        },
+        {
+          "type": "rectangle",
+          "id": "tZKPC",
+          "x": 60,
+          "y": 840,
+          "name": "midRule",
+          "fill": "$brand-red",
+          "width": 50,
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "Ieoy5",
+          "x": 60,
+          "y": 865,
+          "name": "tagline",
+          "fill": "$brand-red",
+          "content": "from Areni, with love.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 44,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "VcSj6",
+          "x": 60,
+          "y": 935,
+          "name": "quote",
+          "fill": "$brand-white",
+          "content": "six thousand years of harvest,",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 26,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "Rfy2x",
+          "x": 60,
+          "y": 970,
+          "name": "quote2",
+          "fill": "$brand-white",
+          "content": "poured into a single evening.",
+          "fontFamily": "Instrument Serif",
+          "fontSize": 26,
+          "fontWeight": "normal",
+          "fontStyle": "italic"
+        },
+        {
+          "type": "text",
+          "id": "isg4I",
+          "x": 60,
+          "y": 1280,
+          "name": "sideLabel",
+          "fill": "$brand-muted",
+          "content": "NO. 06",
+          "fontFamily": "Instrument Sans",
+          "fontSize": 12,
+          "fontWeight": "700",
+          "letterSpacing": 3
+        },
+        {
+          "type": "rectangle",
+          "id": "ZUuWp",
+          "x": 60,
+          "y": 1254,
+          "name": "bottomRule",
+          "fill": "$brand-muted",
+          "width": 960,
+          "height": 1
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "brand-blue": {
+      "type": "color",
+      "value": "#4a7bffff"
+    },
+    "brand-dark": {
+      "type": "color",
+      "value": "#0F0F10"
+    },
+    "brand-dark-soft": {
+      "type": "color",
+      "value": "#1A1A1C"
+    },
+    "brand-muted": {
+      "type": "color",
+      "value": "#8A8A8F"
+    },
+    "brand-red": {
+      "type": "color",
+      "value": "#d61e23ff"
+    },
+    "brand-white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "brand-yellow": {
+      "type": "color",
+      "value": "#ffc53aff"
+    },
+    "sans": {
+      "type": "string",
+      "value": "Instrument Sans"
+    },
+    "serif-italic": {
+      "type": "string",
+      "value": "Instrument Serif"
+    }
+  }
+}

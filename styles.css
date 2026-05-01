@@ -29,12 +29,14 @@ body {
 
 .stub {
   width: min(900px, 100%);
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
 .brand {
   margin: 0;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: clamp(10px, 2.2vw, 20px);
@@ -88,24 +90,28 @@ body {
 @media (max-width: 640px) {
   body {
     padding: 18px;
+    overflow-x: hidden;
   }
 
   .stub {
     width: 100%;
+    justify-content: center;
   }
 
   .brand {
     width: auto;
     flex-wrap: nowrap;
-    gap: 10px;
-    font-size: clamp(1.76rem, 10.4vw, 3.04rem);
+    gap: 8px;
+    font-size: clamp(1.58rem, 9.5vw, 2.7rem);
     line-height: 0.94;
     justify-content: center;
+    white-space: nowrap;
+    margin-inline: auto;
   }
 
   .emoji-slot {
-    width: clamp(77px, 22vw, 106px);
-    height: clamp(77px, 22vw, 106px);
+    width: clamp(66px, 20vw, 92px);
+    height: clamp(66px, 20vw, 92px);
     flex: 0 0 auto;
   }
 }
@@ -116,12 +122,12 @@ body {
   }
 
   .brand {
-    gap: 8px;
-    font-size: clamp(1.52rem, 9.6vw, 2.4rem);
+    gap: 6px;
+    font-size: clamp(1.36rem, 9.2vw, 2rem);
   }
 
   .emoji-slot {
-    width: clamp(70px, 22vw, 86px);
-    height: clamp(70px, 22vw, 86px);
+    width: clamp(58px, 19vw, 76px);
+    height: clamp(58px, 19vw, 76px);
   }
 }

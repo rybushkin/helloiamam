@@ -13,6 +13,7 @@ let fallbackIndex = 0;
 let isSwitching = false;
 let lastPointerX = null;
 let lastPointerY = null;
+const emojiSourceCache = new Map();
 
 function buildEmojiSrc(fileName) {
   return `${EMOJI_BASE_PATH}${encodeURIComponent(fileName)}`;
@@ -45,6 +46,24 @@ function loadEmojiSource(fileName) {
   });
 }
 
+function preloadEmojiSources() {
+  EMOJI_FILES.forEach((fileName) => {
+    if (emojiSourceCache.has(fileName)) {
+      return;
+    }
+
+    // undefined = loading started, null = missing/broken image, string = ready src.
+    emojiSourceCache.set(fileName, undefined);
+    loadEmojiSource(fileName)
+      .then((src) => {
+        emojiSourceCache.set(fileName, src);
+      })
+      .catch(() => {
+        emojiSourceCache.set(fileName, null);
+      });
+  });
+}
+
 async function showNextAvailableEmoji() {
   if (isSwitching) {
     return;
@@ -68,12 +87,27 @@ async function showNextAvailableEmoji() {
     const fileName = EMOJI_FILES[index];
     attempts += 1;
 
+    const cachedSource = emojiSourceCache.get(fileName);
+    if (typeof cachedSource === "string") {
+      loadedSrc = cachedSource;
+      loadedFile = fileName;
+      loadedIndex = index;
+      break;
+    }
+
+    if (cachedSource === null) {
+      // This file is known as unavailable, continue with next one.
+      continue;
+    }
+
     try {
       loadedSrc = await loadEmojiSource(fileName);
+      emojiSourceCache.set(fileName, loadedSrc);
       loadedFile = fileName;
       loadedIndex = index;
       break;
     } catch {
+      emojiSourceCache.set(fileName, null);
       // Try the next file in sequence.
     }
   }
@@ -110,5 +144,6 @@ function handlePointerMove(event) {
   showNextAvailableEmoji();
 }
 
+preloadEmojiSources();
 showNextAvailableEmoji();
 window.addEventListener("pointermove", handlePointerMove, { passive: true });

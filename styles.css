@@ -95,17 +95,17 @@ body {
   }
 
   .brand {
-    width: 100%;
+    width: auto;
     flex-wrap: nowrap;
     gap: 10px;
-    font-size: clamp(2.2rem, 13vw, 3.8rem);
+    font-size: clamp(1.76rem, 10.4vw, 3.04rem);
     line-height: 0.94;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .emoji-slot {
-    width: clamp(96px, 28vw, 132px);
-    height: clamp(96px, 28vw, 132px);
+    width: clamp(77px, 22vw, 106px);
+    height: clamp(77px, 22vw, 106px);
     flex: 0 0 auto;
   }
 }
@@ -117,11 +117,11 @@ body {
 
   .brand {
     gap: 8px;
-    font-size: clamp(1.9rem, 12vw, 3rem);
+    font-size: clamp(1.52rem, 9.6vw, 2.4rem);
   }
 
   .emoji-slot {
-    width: clamp(88px, 27vw, 108px);
-    height: clamp(88px, 27vw, 108px);
+    width: clamp(70px, 22vw, 86px);
+    height: clamp(70px, 22vw, 86px);
   }
 }
